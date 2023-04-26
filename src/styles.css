@@ -228,6 +228,7 @@ iframe {
 }
 
 .second-section {
+  padding-top: 70px;
   text-align: center;
   background-color: #f9f4ff;
 }
@@ -325,5 +326,13 @@ iframe {
 
   .img-phone-display-none {
     display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  iframe .video-section {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
   }
 }
